@@ -1,5 +1,4 @@
 # Retail_Sale_Analysis
-# Retail Sales Analysis
 
 ## 📌 Project Overview
 
