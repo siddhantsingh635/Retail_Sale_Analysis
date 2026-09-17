@@ -169,15 +169,18 @@ Average Discount = AVERAGE(clean_data[Discount])
 
 Profit Margin =
 
-Key Insights
+
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+
+---
+---Key Insights
 Sales and profit performance varies across product categories.
 Product-level performance shows differences between sales volume and profitability.
 Regional analysis highlights differences in sales and profit across states.
 Customer analysis identifies high-value customers based on sales.
 Discount levels show different relationships with profitability across products/categories.
 Higher discount does not automatically imply lower profit in this dataset; the relationship requires further business investigation.
-DIVIDE(
-    [Total Profit],
-    [Total Sales],
-    0
-)
